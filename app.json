@@ -1,0 +1,12 @@
+{
+  "name": "TrainTicket",
+  "displayName": "TrainTicket",
+  "expo": {
+    "name": "TrainTicket",
+    "slug": "TrainTicket",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
