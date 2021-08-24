@@ -14,7 +14,8 @@ export default function Summary({ navigation }) {
     <View style={styles.container}>
       <StatusBar style="Light" />
       <Header
-        icon={<Back onPress={() => navigation.navigate("ticket")} />}
+        icon={<Back />}
+        onPress={() => navigation.navigate("ticket")}
         title="Ordering summary"
         headerStyle={styles.cilebut}
       />

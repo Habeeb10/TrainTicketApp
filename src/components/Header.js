@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-export const Header = ({ icon, title, onpress, headerStyle }) => {
+export const Header = ({ icon, title, onPress, headerStyle }) => {
   return (
     <View style={styles.container}>
-      <TouchableOpacity onpress={onpress}>{icon}</TouchableOpacity>
+      <TouchableOpacity onPress={onPress}>{icon}</TouchableOpacity>
       <Text style={[styles.title, headerStyle]}>{title}</Text>
     </View>
   );
